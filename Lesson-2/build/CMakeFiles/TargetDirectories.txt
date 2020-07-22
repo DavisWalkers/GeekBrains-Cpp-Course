@@ -1,0 +1,3 @@
+/home/despicable/GeekBrains/Cpp-Basics/Lesson-2/build/CMakeFiles/rebuild_cache.dir
+/home/despicable/GeekBrains/Cpp-Basics/Lesson-2/build/CMakeFiles/edit_cache.dir
+/home/despicable/GeekBrains/Cpp-Basics/Lesson-2/build/CMakeFiles/les-2.dir
