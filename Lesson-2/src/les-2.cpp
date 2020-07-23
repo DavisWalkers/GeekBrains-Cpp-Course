@@ -14,6 +14,12 @@ void PrintV(int value)
     cout << value << endl;
 }
 
+// Prints an array
+void PrintArr(char arr[4])
+{
+    cout << arr << endl;
+}
+
 int main()
 {
     // Task 1
@@ -34,6 +40,16 @@ int main()
     cin >> value2;
     cout << "The remainder is ";
     PrintV(Remainder(value1, value2));
+
+    // Task 3
+    char str[4] = {'s', 't', 'd'};
+    char str2[4] = {'s', 't'};
+
+    cout << "\tTask 3 - Print an array" << endl;
+    cout << "Fully filled: ";
+    PrintArr(str);
+    cout << "Parly filled: ";
+    PrintArr(str2);
 
     return SUCCESS;
 }
