@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/despicable/GeekBrains/Cpp-Basics/Lesson-3/src/les-3.cpp
+les-3.h
+/home/despicable/GeekBrains/Cpp-Basics/Lesson-3/src/les-3.h
+
