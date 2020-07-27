@@ -63,5 +63,19 @@ int main(int argc, char **argv)
             cout << "Not in the set!" << endl;
     }
 
+    // Task 4
+    cout << "\tTask 4 - While and inc/decrement" << endl;
+
+    unsigned int num;
+    cout << "Enter a num: ";
+    cin >> num;
+
+    do 
+    {
+        cout << num << endl;
+        num -= 1;
+    } while (num >= 3);
+    
+
     return 0;
 }
