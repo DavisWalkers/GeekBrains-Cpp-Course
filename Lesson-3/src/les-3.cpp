@@ -40,5 +40,28 @@ int main(int argc, char **argv)
             cout << "The result number is less than zero" << endl;        
     }
 
+    // Task 3
+    cout << "\tTask 3 - Operator switch" << endl;
+    int input;
+    const_set cs;
+    cout << "Enter a number: ";
+    cin >> input;
+
+    switch(input)
+    {
+        case csConst1:
+        case csConst2:
+        case csConst3:
+            cout << "First half of the set!" << endl;
+            break;
+        case csConst4:
+        case csConst5:
+        case csConst6:
+            cout << "Second half of the set!" << endl;
+            break;
+        default:
+            cout << "Not in the set!" << endl;
+    }
+
     return 0;
 }
