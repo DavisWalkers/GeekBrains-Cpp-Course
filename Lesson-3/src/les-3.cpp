@@ -75,6 +75,19 @@ int main(int argc, char **argv)
         cout << num << endl;
         num -= 1;
     } while (num >= 3);
+
+    // Task 6
+    cout << "\tTask 6 - for loop" << endl;
+
+    char str[10];
+
+    for (int i = 0, j = 40; i < 10; i++, j += 3)
+        str[i] = j;
+    
+    for (int i = 0; i < 10; i++)
+        cout << str[i] << " ";
+
+    cout << endl;
     
 
     return 0;
